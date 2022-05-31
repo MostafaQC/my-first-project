@@ -1,0 +1,251 @@
+id: fRD57JADgUqEeWC2oh_XgQ
+projectId: 6YasiGLnFU2b54y46bOleQ
+projectName: My first Project
+created: 2022-05-31T11:04:14.5956238Z
+protocol: 1
+tests:
+- id: P5G6l-8GY02jIEPfPRztfg
+  name: Login
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-05-30T11:34:51.0000000
+  modificationDate: 2022-05-30T12:14:07.0000000
+  settings:
+    automationAssistant: true
+    appId: aXcFE54aj0Ks-WJTSOqGGw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: aXcFE54aj0Ks-WJTSOqGGw
+    name: Prime Gate
+    url: http://unstable-dep.prime-gate.test.dev-itqansystems.com/
+    platform: Web
+  steps:
+  - id: A03oc3S7-U2Sp4DdmVboYQ
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xcutZRnAEECkk4aAJijf_g
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 8TG1UPy9jkO95MrtK-F9fg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qQO4f0oBjECQzJUFW5JcBg
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: fxbNtrie4kKetkr6zE-RqA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zA6JU_vH9UWITnhyKrPrQQ
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: fxbNtrie4kKetkr6zE-RqA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{UserName}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Mz4uv8lSg0SgG-aeJa7uzg
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: v7JeblXz7kejsWF9el8LoA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{password}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: nfA3YfoXdkeRv_kmyP5jUg
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: QdcM-Ud2uka9i_q3CUabBw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: http://unstable-dep.prime-gate.test.dev-itqansystems.com/
+    type: Input
+  - name: UserName
+    description: ''
+    value: admin
+    type: Input
+  - name: password
+    description: ''
+    value: admin
+    type: Input
+auxTests: []
+elements:
+- id: 8TG1UPy9jkO95MrtK-F9fg
+  name: prime_gate_unstable_dep_db
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: "//a[. = '\n                                        \n                                        prime_gate_unstable_dep_db\n                                    ']"
+    priority: 0
+  - name: XPATH
+    value: //div[3]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[1]/div[3]/a
+    priority: 2
+- id: fxbNtrie4kKetkr6zE-RqA
+  name: login
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#login'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='login']"
+    priority: 1
+  - name: XPATH
+    value: //input[@placeholder = 'Email']
+    priority: 2
+  - name: XPATH
+    value: //div[2]/input
+    priority: 3
+  - name: XPATH
+    value: /html/body/div/main/div/form/div[2]/input
+    priority: 4
+- id: v7JeblXz7kejsWF9el8LoA
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#password'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 1
+  - name: XPATH
+    value: //input[@placeholder = 'Password']
+    priority: 2
+  - name: XPATH
+    value: //div[3]/input
+    priority: 3
+  - name: XPATH
+    value: /html/body/div/main/div/form/div[3]/input
+    priority: 4
+- id: QdcM-Ud2uka9i_q3CUabBw
+  name: Log in
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Log in']
+    priority: 0
+  - name: XPATH
+    value: //div[4]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/main/div/form/div[4]/button
+    priority: 2
+projectParameters: []
+addons: []
