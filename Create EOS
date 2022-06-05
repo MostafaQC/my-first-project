@@ -1,7 +1,7 @@
-id: KEUUkl0CLUihKiqAbPgEwg
+id: IK-d67L3f0-LXGBbK6O4BQ
 projectId: 6YasiGLnFU2b54y46bOleQ
 projectName: My first Project
-created: 2022-06-05T16:23:52.2187601Z
+created: 2022-06-05T16:24:45.5680019Z
 protocol: 1
 tests:
 - id: xeUUNNhUHUCyhIERvY_wcg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-05T16:20:41.0000000
-  modificationDate: 2022-06-05T16:23:42.0000000
+  modificationDate: 2022-06-05T16:24:44.0000000
   settings:
     automationAssistant: true
     appId: aXcFE54aj0Ks-WJTSOqGGw
@@ -442,7 +442,7 @@ tests:
       source: System
     parameterMaps:
     - name: text
-      value: You can't create more request for the same employee and any status except Cancel or Done
+      value: "You can't create more request for the same employee and any status except Cancel or "
       direction: Input
     conditions: []
     validations: []
