@@ -1,7 +1,7 @@
-id: 7X2PtnkTIk-OwTkt0JTqew
+id: UzfXtES3s0CiEVyjAEQ1YQ
 projectId: 6YasiGLnFU2b54y46bOleQ
 projectName: My first Project
-created: 2022-06-06T09:34:52.0727377Z
+created: 2022-06-06T09:38:16.6780637Z
 protocol: 1
 tests:
 - id: omO5GgboF0SZUaGEKqj8_w
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-06T09:30:56.0000000
-  modificationDate: 2022-06-06T09:34:46.0000000
+  modificationDate: 2022-06-06T09:35:09.0000000
   settings:
     automationAssistant: true
     appId: aXcFE54aj0Ks-WJTSOqGGw
@@ -255,7 +255,7 @@ tests:
       source: System
     parameterMaps:
     - name: text
-      value: You Cannot create more requests for the same employee in any state except Rejected
+      value: s
       direction: Input
     conditions: []
     validations: []
