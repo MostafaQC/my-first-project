@@ -1,7 +1,7 @@
-id: _N-Zrnw1R0SHt72F3R6Hjw
+id: j4Fos6Ith0KeW7Qf8qh1Tg
 projectId: 6YasiGLnFU2b54y46bOleQ
 projectName: My first Project
-created: 2022-06-06T09:18:33.3442657Z
+created: 2022-06-06T09:20:20.4796383Z
 protocol: 1
 tests:
 - id: yQCtWHBxV029n7QQj4WLzg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-06T09:18:33.0000000
-  modificationDate: 2022-06-06T09:18:33.0000000
+  modificationDate: 2022-06-06T09:20:01.0000000
   settings:
     automationAssistant: true
     appId: aXcFE54aj0Ks-WJTSOqGGw
@@ -50,12 +50,235 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: imMltqj6aEe5nkFxxLrnDQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 8TG1UPy9jkO95MrtK-F9fg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fTez7sjDpUmOWMA0M3-qJg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: fxbNtrie4kKetkr6zE-RqA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: admin
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9It93Y51L0ie92wNd9nGdg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: v7JeblXz7kejsWF9el8LoA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -nIWzCGJpEaW_TOf0gVKsg
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: v7JeblXz7kejsWF9el8LoA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: admin
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tNSyucQM-UaEBAovPoH5rw
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: QdcM-Ud2uka9i_q3CUabBw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lV33bmxBiUe0VY2fkuZYaQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: ybME_0EgR0yVSOSo6dgjRQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Announcements
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
     value: http://unstable-dep.prime-gate.test.dev-itqansystems.com/
     type: Input
 auxTests: []
-elements: []
+elements:
+- id: 8TG1UPy9jkO95MrtK-F9fg
+  name: prime_gate_unstable_dep_db
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: "//a[. = '\n                                        \n                                        prime_gate_unstable_dep_db\n                                    ']"
+    priority: 0
+  - name: XPATH
+    value: //div[3]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[1]/div[3]/a
+    priority: 2
+- id: fxbNtrie4kKetkr6zE-RqA
+  name: login
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#login'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='login']"
+    priority: 1
+  - name: XPATH
+    value: //input[@placeholder = 'Email']
+    priority: 2
+  - name: XPATH
+    value: //div[2]/input
+    priority: 3
+  - name: XPATH
+    value: /html/body/div/main/div/form/div[2]/input
+    priority: 4
+- id: v7JeblXz7kejsWF9el8LoA
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#password'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 1
+  - name: XPATH
+    value: //input[@placeholder = 'Password']
+    priority: 2
+  - name: XPATH
+    value: //div[3]/input
+    priority: 3
+  - name: XPATH
+    value: /html/body/div/main/div/form/div[3]/input
+    priority: 4
+- id: QdcM-Ud2uka9i_q3CUabBw
+  name: Log in
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Log in']
+    priority: 0
+  - name: XPATH
+    value: //div[4]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/main/div/form/div[4]/button
+    priority: 2
+- id: ybME_0EgR0yVSOSo6dgjRQ
+  name: Announcements
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTk
+    name: ListItem
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[. = 'Announcements']
+    priority: 0
+  - name: XPATH
+    value: //ol/li
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[1]/div[1]/div[1]/ol/li
+    priority: 2
 projectParameters: []
 addons: []
