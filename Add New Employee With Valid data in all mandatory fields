@@ -1,7 +1,7 @@
-id: FcgcdbUtokKCmdufyJFc2w
+id: gMU4Sxz2E0CYLMAdM63zXw
 projectId: 6YasiGLnFU2b54y46bOleQ
 projectName: My first Project
-created: 2022-06-06T11:29:44.6255947Z
+created: 2022-06-06T17:26:49.2019740Z
 protocol: 1
 tests:
 - id: hDvkDJ8y30qVJYP2qm6NSw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-06T10:09:37.0000000
-  modificationDate: 2022-06-06T11:29:42.0000000
+  modificationDate: 2022-06-06T17:26:46.0000000
   settings:
     automationAssistant: true
     appId: aXcFE54aj0Ks-WJTSOqGGw
@@ -1027,7 +1027,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: 451231654
+      value: 451231654{{EmployeeCode}}
       direction: Input
     conditions: []
     validations: []
@@ -1557,6 +1557,10 @@ tests:
   - name: ApplicationURL
     description: Auto generated application URL parameter
     value: http://unstable-dep.prime-gate.test.dev-itqansystems.com/
+    type: Input
+  - name: EmployeeCode
+    description: ''
+    value: 4895613246
     type: Input
 auxTests: []
 elements:
