@@ -1,7 +1,7 @@
-id: V4JfUGqDskGdMUYXk6LNzw
+id: S0224agkake3WGf34zQg8g
 projectId: 6YasiGLnFU2b54y46bOleQ
 projectName: My first Project
-created: 2022-06-06T11:17:00.4273444Z
+created: 2022-06-06T11:27:24.8761479Z
 protocol: 1
 tests:
 - id: hDvkDJ8y30qVJYP2qm6NSw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-06T10:09:37.0000000
-  modificationDate: 2022-06-06T11:16:50.0000000
+  modificationDate: 2022-06-06T11:27:14.0000000
   settings:
     automationAssistant: true
     appId: aXcFE54aj0Ks-WJTSOqGGw
@@ -1529,6 +1529,30 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: _5jfdQYsUEm66CqOXlSNww
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 73
+    repeat: 1
+    type: Action
+    elementId: vDRVh9qbLEKpl-wg6_lmaQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Employee created
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -2379,6 +2403,22 @@ elements:
   - name: XPATH
     value: /html/body/div[2]/div/div[2]/div/div[1]/div[2]/div[6]/div[2]/div[5]/div[1]/table[1]/tbody/tr[15]/td[2]/select
     priority: 3
+- id: vDRVh9qbLEKpl-wg6_lmaQ
+  name: Employee created
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTM
+    name: Paragraph
+    source: System
+  locators:
+  - name: XPATH
+    value: //p[. = 'Employee created']
+    priority: 0
+  - name: XPATH
+    value: //div[3]//p
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div/div/div[3]/div[2]/div[2]/div/p
+    priority: 2
 - id: tHrib4pKBEubSiYNObs-yA
   name: Albania
   type:
@@ -2407,10 +2447,10 @@ elements:
   locators:
   - name: CSSSELECTOR
     value: '#ui-id-156'
-    priority: 0
+    priority: 1
   - name: XPATH
     value: //a[. = '3232423']
-    priority: 1
+    priority: 0
   - name: XPATH
     value: //ul[18]/li[1]/a
     priority: 2
