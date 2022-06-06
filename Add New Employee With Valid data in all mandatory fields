@@ -1,7 +1,7 @@
-id: tSHznY8VI0KZzbBtSD32bQ
+id: K0v11_yLc0GcChFOiYTqKQ
 projectId: 6YasiGLnFU2b54y46bOleQ
 projectName: My first Project
-created: 2022-06-06T10:22:49.4797810Z
+created: 2022-06-06T10:32:53.8775904Z
 protocol: 1
 tests:
 - id: hDvkDJ8y30qVJYP2qm6NSw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-06T10:09:37.0000000
-  modificationDate: 2022-06-06T10:22:46.0000000
+  modificationDate: 2022-06-06T10:32:43.0000000
   settings:
     automationAssistant: true
     appId: aXcFE54aj0Ks-WJTSOqGGw
@@ -1258,7 +1258,8 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 1nOELu6z3kCj08p66v9L5w
+  - id: r_359-gVwE6cTV2MdlxS6g
+    comments: ''
     enabled: true
     invertResult: false
     order: 60
@@ -1267,161 +1268,24 @@ tests:
     elementId: OYHkqgwMDEW1hGigmtU1SQ
     settings:
       sleepTime: -1
-      timeout: 35000
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: Z-HD0WjgukWz13Nah1ExSg
-    enabled: true
-    invertResult: false
-    order: 61
-    repeat: 1
-    type: Action
-    elementId: L31OQk5Ft0KBTVohjXx7rg
-    settings:
-      sleepTime: -1
       timeout: -1
       sleepTiming: Inherit
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
       source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: PcQbRvK9nkaMzZ5xwR10Ug
-    enabled: true
-    invertResult: false
-    order: 62
-    repeat: 1
-    type: Action
-    elementId: Kwx8DT-0N0e9YehNHLhqVQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: T9C1M_NPvE68ByPbX64Tsg
-    enabled: true
-    invertResult: false
-    order: 63
-    repeat: 1
-    type: Action
-    elementId: 12XLTsV3D0iyjBj7hTWJKg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: G6DD5mKP6UO-_deValcklA
-    enabled: true
-    invertResult: false
-    order: 64
-    repeat: 1
-    type: Action
-    elementId: fW4AI1CdYk2tDJKl_rddJQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: aqKXcJUtF0eKDH_kAADiKQ
-    enabled: true
-    invertResult: false
-    order: 65
-    repeat: 1
-    type: Action
-    elementId: wU9HCT-l_UaJWz8ThQNL0g
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: Mt7jYYw-O0mgofZz2J1pew
-    enabled: true
-    invertResult: false
-    order: 66
-    repeat: 1
-    type: Action
-    elementId: sRlDdMLnF0iabMx3YGnR8Q
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 97IayL9TfkKaIoDRDrJ8iQ
-    enabled: true
-    invertResult: false
-    order: 67
-    repeat: 1
-    type: Action
-    elementId: xDUJarRcE0-TyxZ0DyBUJQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
+    parameterMaps:
+    - name: keys
+      value: "1-2-1993\n "
+      direction: Input
     conditions: []
     validations: []
     contexts: []
   - id: Xg72Ey2_5UWWWGuEeEov1Q
     enabled: true
     invertResult: false
-    order: 68
+    order: 61
     repeat: 1
     type: Action
     elementId: FcQRKigVh0aMJ71zq7M8sQ
@@ -1441,7 +1305,7 @@ tests:
   - id: 1qSmm-iEhUClQRNnleBbZA
     enabled: true
     invertResult: false
-    order: 69
+    order: 62
     repeat: 1
     type: Action
     elementId: FcQRKigVh0aMJ71zq7M8sQ
@@ -1464,7 +1328,7 @@ tests:
   - id: sRQKsebfx0esPx3VrC-KHA
     enabled: true
     invertResult: false
-    order: 70
+    order: 63
     repeat: 1
     type: Action
     elementId: 6cQHlby62kiNG5OWCrfW5Q
@@ -1484,7 +1348,7 @@ tests:
   - id: _D3JwZn23UC3yePIXwz53g
     enabled: true
     invertResult: false
-    order: 71
+    order: 64
     repeat: 1
     type: Action
     elementId: b2Bhc2rXdECGwsDEi8FSWA
@@ -1504,7 +1368,7 @@ tests:
   - id: xt_f3WUB7UCT9givsNtMNg
     enabled: true
     invertResult: false
-    order: 72
+    order: 65
     repeat: 1
     type: Action
     elementId: rFAsHvkc4U-nnfHbjdlhYQ
@@ -1524,7 +1388,7 @@ tests:
   - id: IAhomnZ__06qvtpirVeWvA
     enabled: true
     invertResult: false
-    order: 73
+    order: 66
     repeat: 1
     type: Action
     elementId: rFAsHvkc4U-nnfHbjdlhYQ
@@ -1547,7 +1411,7 @@ tests:
   - id: Y6-H9camR0CdZMpPgfIiDA
     enabled: true
     invertResult: false
-    order: 74
+    order: 67
     repeat: 1
     type: Action
     elementId: HpDydo9oNE-aN7u8PMZTzg
@@ -1567,7 +1431,7 @@ tests:
   - id: txktRVuo2EWtI69bKS9X7Q
     enabled: true
     invertResult: false
-    order: 75
+    order: 68
     repeat: 1
     type: Action
     elementId: ehQHDCRWiUqEWw-4K4xfcQ
@@ -1587,7 +1451,7 @@ tests:
   - id: _XG02597ZkyPv8m54pWePg
     enabled: true
     invertResult: false
-    order: 76
+    order: 69
     repeat: 1
     type: Action
     elementId: SZwKw0t9akawE6EJCQezzQ
@@ -1607,7 +1471,7 @@ tests:
   - id: xyJkPisknESCRvBN4nOVJw
     enabled: true
     invertResult: false
-    order: 77
+    order: 70
     repeat: 1
     type: Action
     elementId: SZwKw0t9akawE6EJCQezzQ
@@ -1630,7 +1494,7 @@ tests:
   - id: c_Sk02orI0q1ElzvyxUyFg
     enabled: true
     invertResult: false
-    order: 78
+    order: 71
     repeat: 1
     type: Action
     elementId: SZwKw0t9akawE6EJCQezzQ
@@ -1650,7 +1514,7 @@ tests:
   - id: FBiwx9Q4J0yddEYIafIiJw
     enabled: true
     invertResult: false
-    order: 79
+    order: 72
     repeat: 1
     type: Action
     elementId: HW2Dv-7G0EuVIGnYkmSpiA
@@ -1671,7 +1535,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 80
+    order: 73
     repeat: 1
     type: Action
     elementId: vDRVh9qbLEKpl-wg6_lmaQ
@@ -2455,109 +2319,6 @@ elements:
   - name: XPATH
     value: /html/body/div[2]/div/div[2]/div/div[1]/div[2]/div[6]/div[2]/div[4]/div/table[8]/tbody/tr[4]/td[2]/div/input
     priority: 2
-- id: L31OQk5Ft0KBTVohjXx7rg
-  name: 2022
-  type:
-    id: jUwODgyNjAyNzk2NTk2OTI
-    name: th
-    source: System
-  locators:
-  - name: XPATH
-    value: //th[. = '2022']
-    priority: 0
-  - name: XPATH
-    value: //div[2]/table//th[2]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[25]/ul/li[1]/div/div[2]/table/thead/tr/th[2]
-    priority: 2
-- id: Kwx8DT-0N0e9YehNHLhqVQ
-  name: Previous Decade
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjU
-    name: span
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[3]/table/thead/tr/th[1]/span
-    priority: 0
-  - name: XPATH
-    value: /html/body/div[25]/ul/li[1]/div/div[3]/table/thead/tr/th[1]/span
-    priority: 1
-- id: 12XLTsV3D0iyjBj7hTWJKg
-  name: TH1
-  type:
-    id: jUwODgyNjAyNzk2NTk2OTI
-    name: th
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[3]//th[1]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div[25]/ul/li[1]/div/div[3]/table/thead/tr/th[1]
-    priority: 1
-- id: fW4AI1CdYk2tDJKl_rddJQ
-  name: 1999
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjU
-    name: span
-    source: System
-  locators:
-  - name: XPATH
-    value: //span[. = '1999']
-    priority: 0
-  - name: XPATH
-    value: //div[3]/table/tbody//span[1]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[25]/ul/li[1]/div/div[3]/table/tbody/tr/td/span[1]
-    priority: 2
-- id: wU9HCT-l_UaJWz8ThQNL0g
-  name: Jan
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjU
-    name: span
-    source: System
-  locators:
-  - name: XPATH
-    value: //span[. = 'Jan']
-    priority: 0
-  - name: XPATH
-    value: //div[2]/table/tbody/tr/td/span[1]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[25]/ul/li[1]/div/div[2]/table/tbody/tr/td/span[1]
-    priority: 2
-- id: sRlDdMLnF0iabMx3YGnR8Q
-  name: 1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTY
-    name: TableCell
-    source: System
-  locators:
-  - name: XPATH
-    value: //td[7][. = '1']
-    priority: 0
-  - name: XPATH
-    value: //tbody/tr[1]/td[7]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[25]/ul/li[1]/div/div[1]/table/tbody/tr[1]/td[7]
-    priority: 2
-- id: xDUJarRcE0-TyxZ0DyBUJQ
-  name: DIV1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[6]/div[2]/div[4]/div
-    priority: 0
-  - name: XPATH
-    value: /html/body/div[2]/div/div[2]/div/div[1]/div[2]/div[6]/div[2]/div[4]/div
-    priority: 1
 - id: FcQRKigVh0aMJ71zq7M8sQ
   name: o_field_input_969
   type:
