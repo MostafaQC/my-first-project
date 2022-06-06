@@ -1,7 +1,7 @@
-id: prsrJT1hgUmESkQ38rCMRQ
+id: YrpPFQenpUCDxjU3vKJtoQ
 projectId: 6YasiGLnFU2b54y46bOleQ
 projectName: My first Project
-created: 2022-06-06T11:01:21.1251393Z
+created: 2022-06-06T11:02:07.1557943Z
 protocol: 1
 tests:
 - id: hDvkDJ8y30qVJYP2qm6NSw
@@ -12,9 +12,9 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-06T10:09:37.0000000
-  modificationDate: 2022-06-06T11:01:21.0000000
+  modificationDate: 2022-06-06T11:02:07.0000000
   settings:
-    automationAssistant: false
+    automationAssistant: true
     appId: aXcFE54aj0Ks-WJTSOqGGw
     stepSleepTime: 500
     stepTimeout: 15000
@@ -1509,26 +1509,6 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 8gKrF4gE9E--3L1nKdpuZA
-    enabled: true
-    invertResult: false
-    order: 72
-    repeat: 1
-    type: Action
-    elementId: i9jGy9O6a0egVBT26453jA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -2417,18 +2397,5 @@ elements:
   - name: XPATH
     value: /html/body/ul[18]/li[1]/a
     priority: 3
-- id: i9jGy9O6a0egVBT26453jA
-  name: DIV2
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //body/div[2]/div/div[2]/div/div[1]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div[2]/div/div[2]/div/div[1]
-    priority: 1
 projectParameters: []
 addons: []
