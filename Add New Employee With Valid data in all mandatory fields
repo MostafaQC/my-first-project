@@ -1,7 +1,7 @@
-id: YrpPFQenpUCDxjU3vKJtoQ
+id: V4JfUGqDskGdMUYXk6LNzw
 projectId: 6YasiGLnFU2b54y46bOleQ
 projectName: My first Project
-created: 2022-06-06T11:02:07.1557943Z
+created: 2022-06-06T11:17:00.4273444Z
 protocol: 1
 tests:
 - id: hDvkDJ8y30qVJYP2qm6NSw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-06T10:09:37.0000000
-  modificationDate: 2022-06-06T11:02:07.0000000
+  modificationDate: 2022-06-06T11:16:50.0000000
   settings:
     automationAssistant: true
     appId: aXcFE54aj0Ks-WJTSOqGGw
@@ -1322,11 +1322,31 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: nFjAMgmM-U--CJxA0oO_EQ
+    enabled: true
+    invertResult: false
+    order: 63
+    repeat: 1
+    type: Action
+    elementId: wMr1nWFWHkCE1u4wqFX2JQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   - id: d1pVAmK4vEC-vD4FAQnIeQ
     comments: ''
     enabled: true
     invertResult: false
-    order: 63
+    order: 64
     repeat: 1
     type: Action
     elementId: b2Bhc2rXdECGwsDEi8FSWA
@@ -1346,7 +1366,7 @@ tests:
   - id: ITZB_wfI5U61-EB3MOS0oQ
     enabled: true
     invertResult: false
-    order: 64
+    order: 65
     repeat: 1
     type: Action
     elementId: rFAsHvkc4U-nnfHbjdlhYQ
@@ -1366,7 +1386,7 @@ tests:
   - id: miXUcflWZkCcQtb4UZBjvA
     enabled: true
     invertResult: false
-    order: 65
+    order: 66
     repeat: 1
     type: Action
     elementId: rFAsHvkc4U-nnfHbjdlhYQ
@@ -1389,7 +1409,7 @@ tests:
   - id: d8h06tSNnE-k0FTuu9n77Q
     enabled: true
     invertResult: false
-    order: 66
+    order: 67
     repeat: 1
     type: Action
     elementId: HpDydo9oNE-aN7u8PMZTzg
@@ -1409,7 +1429,7 @@ tests:
   - id: jxfcNRnwYEWcZ836ICU16Q
     enabled: true
     invertResult: false
-    order: 67
+    order: 68
     repeat: 1
     type: Action
     elementId: vLJFqr0uYkOoCaPMt2aHXg
@@ -1429,7 +1449,7 @@ tests:
   - id: vxfS_3Qt60yXZEY9FHQt6w
     enabled: true
     invertResult: false
-    order: 68
+    order: 69
     repeat: 1
     type: Action
     elementId: SZwKw0t9akawE6EJCQezzQ
@@ -1449,7 +1469,7 @@ tests:
   - id: iuJjHGN1sEu_W67yB91_xQ
     enabled: true
     invertResult: false
-    order: 69
+    order: 70
     repeat: 1
     type: Action
     elementId: SZwKw0t9akawE6EJCQezzQ
@@ -1472,7 +1492,7 @@ tests:
   - id: YB_SBc1ry0eSjmf040F6Ug
     enabled: true
     invertResult: false
-    order: 70
+    order: 71
     repeat: 1
     type: Action
     elementId: SZwKw0t9akawE6EJCQezzQ
@@ -1492,7 +1512,7 @@ tests:
   - id: zQE9Ps51f0mzH2hs6Yvgcw
     enabled: true
     invertResult: false
-    order: 71
+    order: 72
     repeat: 1
     type: Action
     elementId: HW2Dv-7G0EuVIGnYkmSpiA
@@ -2397,5 +2417,21 @@ elements:
   - name: XPATH
     value: /html/body/ul[18]/li[1]/a
     priority: 3
+- id: wMr1nWFWHkCE1u4wqFX2JQ
+  name: Project
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: XPATH
+    value: //td[. = 'Project']
+    priority: 0
+  - name: XPATH
+    value: //div[5]/table[2]/tbody/tr[5]/td[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[3]/div/div[2]/div/div[1]/div[2]/div[5]/table[2]/tbody/tr[5]/td[1]
+    priority: 2
 projectParameters: []
 addons: []
