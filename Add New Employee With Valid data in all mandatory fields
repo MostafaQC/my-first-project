@@ -1,7 +1,7 @@
-id: nQ-C7UyWWUOu1MhQZocf0w
+id: tSHznY8VI0KZzbBtSD32bQ
 projectId: 6YasiGLnFU2b54y46bOleQ
 projectName: My first Project
-created: 2022-06-06T10:16:25.8735950Z
+created: 2022-06-06T10:22:49.4797810Z
 protocol: 1
 tests:
 - id: hDvkDJ8y30qVJYP2qm6NSw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-06T10:09:37.0000000
-  modificationDate: 2022-06-06T10:16:01.0000000
+  modificationDate: 2022-06-06T10:22:46.0000000
   settings:
     automationAssistant: true
     appId: aXcFE54aj0Ks-WJTSOqGGw
@@ -1267,7 +1267,7 @@ tests:
     elementId: OYHkqgwMDEW1hGigmtU1SQ
     settings:
       sleepTime: -1
-      timeout: -1
+      timeout: 35000
       sleepTiming: Inherit
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
