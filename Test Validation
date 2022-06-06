@@ -1,7 +1,7 @@
-id: j4Fos6Ith0KeW7Qf8qh1Tg
+id: os7OZxWxeEeNJ-zL24PWAQ
 projectId: 6YasiGLnFU2b54y46bOleQ
 projectName: My first Project
-created: 2022-06-06T09:20:20.4796383Z
+created: 2022-06-06T09:23:21.6625075Z
 protocol: 1
 tests:
 - id: yQCtWHBxV029n7QQj4WLzg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-06T09:18:33.0000000
-  modificationDate: 2022-06-06T09:20:01.0000000
+  modificationDate: 2022-06-06T09:23:18.0000000
   settings:
     automationAssistant: true
     appId: aXcFE54aj0Ks-WJTSOqGGw
@@ -176,7 +176,7 @@ tests:
       source: System
     parameterMaps:
     - name: text
-      value: Announcements
+      value: ttttttt
       direction: Input
     conditions: []
     validations: []
