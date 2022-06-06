@@ -1,7 +1,7 @@
-id: EXe03M9E0kq0SmmvOjFtHA
+id: MzgIWkuEKkmgoz44RyYJFw
 projectId: 6YasiGLnFU2b54y46bOleQ
 projectName: My first Project
-created: 2022-06-06T11:50:42.1915106Z
+created: 2022-06-06T11:51:34.7095412Z
 protocol: 1
 tests:
 - id: vf82-d0_A0aOY0Lm6XC4Kw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-06T11:50:42.0000000
-  modificationDate: 2022-06-06T11:50:42.0000000
+  modificationDate: 2022-06-06T11:51:33.0000000
   settings:
     automationAssistant: true
     appId: aXcFE54aj0Ks-WJTSOqGGw
