@@ -1,7 +1,7 @@
-id: N1fJ7QGIa0aPdsaIUVM6tA
+id: SIwJxBFpD0upz7CgmhDhwA
 projectId: 6YasiGLnFU2b54y46bOleQ
 projectName: My first Project
-created: 2022-06-06T10:39:53.7632396Z
+created: 2022-06-06T10:51:13.0309003Z
 protocol: 1
 tests:
 - id: hDvkDJ8y30qVJYP2qm6NSw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-06T10:09:37.0000000
-  modificationDate: 2022-06-06T10:39:34.0000000
+  modificationDate: 2022-06-06T10:51:04.0000000
   settings:
     automationAssistant: true
     appId: aXcFE54aj0Ks-WJTSOqGGw
@@ -1282,7 +1282,7 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: Xg72Ey2_5UWWWGuEeEov1Q
+  - id: CsttQyyvLkulejKL4Ln9xg
     enabled: true
     invertResult: false
     order: 61
@@ -1302,13 +1302,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 1qSmm-iEhUClQRNnleBbZA
+  - id: tgsKpDzsT0iYC03t2-h3PA
     enabled: true
     invertResult: false
     order: 62
     repeat: 1
     type: Action
-    elementId: FcQRKigVh0aMJ71zq7M8sQ
+    elementId: tHrib4pKBEubSiYNObs-yA
     settings:
       sleepTime: -1
       timeout: -1
@@ -1316,22 +1316,19 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
-    parameterMaps:
-    - name: keys
-      value: sa
-      direction: Input
+    parameterMaps: []
     conditions: []
     validations: []
     contexts: []
-  - id: sRQKsebfx0esPx3VrC-KHA
+  - id: QQyUv_Sf7kSzn9BS8jvMnQ
     enabled: true
     invertResult: false
     order: 63
     repeat: 1
     type: Action
-    elementId: 6cQHlby62kiNG5OWCrfW5Q
+    elementId: b2Bhc2rXdECGwsDEi8FSWA
     settings:
       sleepTime: -1
       timeout: -1
@@ -1345,16 +1342,16 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: _D3JwZn23UC3yePIXwz53g
+  - id: ITZB_wfI5U61-EB3MOS0oQ
     enabled: true
     invertResult: false
     order: 64
     repeat: 1
     type: Action
-    elementId: b2Bhc2rXdECGwsDEi8FSWA
+    elementId: rFAsHvkc4U-nnfHbjdlhYQ
     settings:
       sleepTime: -1
-      timeout: 25000
+      timeout: -1
       sleepTiming: Inherit
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
@@ -1365,7 +1362,7 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: xt_f3WUB7UCT9givsNtMNg
+  - id: miXUcflWZkCcQtb4UZBjvA
     enabled: true
     invertResult: false
     order: 65
@@ -1379,39 +1376,19 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: IAhomnZ__06qvtpirVeWvA
-    enabled: true
-    invertResult: false
-    order: 66
-    repeat: 1
-    type: Action
-    elementId: rFAsHvkc4U-nnfHbjdlhYQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
       id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
       source: System
     parameterMaps:
     - name: keys
-      value: 8976454561
+      value: 798456123446
       direction: Input
     conditions: []
     validations: []
     contexts: []
-  - id: Y6-H9camR0CdZMpPgfIiDA
+  - id: d8h06tSNnE-k0FTuu9n77Q
     enabled: true
     invertResult: false
-    order: 67
+    order: 66
     repeat: 1
     type: Action
     elementId: HpDydo9oNE-aN7u8PMZTzg
@@ -1428,13 +1405,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: txktRVuo2EWtI69bKS9X7Q
+  - id: jxfcNRnwYEWcZ836ICU16Q
     enabled: true
     invertResult: false
-    order: 68
+    order: 67
     repeat: 1
     type: Action
-    elementId: ehQHDCRWiUqEWw-4K4xfcQ
+    elementId: vLJFqr0uYkOoCaPMt2aHXg
     settings:
       sleepTime: -1
       timeout: -1
@@ -1448,10 +1425,10 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: _XG02597ZkyPv8m54pWePg
+  - id: vxfS_3Qt60yXZEY9FHQt6w
     enabled: true
     invertResult: false
-    order: 69
+    order: 68
     repeat: 1
     type: Action
     elementId: SZwKw0t9akawE6EJCQezzQ
@@ -1468,10 +1445,10 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: xyJkPisknESCRvBN4nOVJw
+  - id: iuJjHGN1sEu_W67yB91_xQ
     enabled: true
     invertResult: false
-    order: 70
+    order: 69
     repeat: 1
     type: Action
     elementId: SZwKw0t9akawE6EJCQezzQ
@@ -1491,10 +1468,10 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: c_Sk02orI0q1ElzvyxUyFg
+  - id: YB_SBc1ry0eSjmf040F6Ug
     enabled: true
     invertResult: false
-    order: 71
+    order: 70
     repeat: 1
     type: Action
     elementId: SZwKw0t9akawE6EJCQezzQ
@@ -1511,10 +1488,10 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: FBiwx9Q4J0yddEYIafIiJw
+  - id: zQE9Ps51f0mzH2hs6Yvgcw
     enabled: true
     invertResult: false
-    order: 72
+    order: 71
     repeat: 1
     type: Action
     elementId: HW2Dv-7G0EuVIGnYkmSpiA
@@ -1528,30 +1505,6 @@ tests:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
     parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: p25oGfIC30iJaj3sMf1vaQ
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 73
-    repeat: 1
-    type: Action
-    elementId: vDRVh9qbLEKpl-wg6_lmaQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
-      source: System
-    parameterMaps:
-    - name: text
-      value: Employee created
-      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -2335,25 +2288,6 @@ elements:
   - name: XPATH
     value: /html/body/div[2]/div/div[2]/div/div[1]/div[2]/div[6]/div[2]/div[4]/div/table[8]/tbody/tr[6]/td[2]/div/div/input
     priority: 2
-- id: 6cQHlby62kiNG5OWCrfW5Q
-  name: Saudi Arabia1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#ui-id-98'
-    priority: 0
-  - name: XPATH
-    value: //ul[14]//a[. = 'Saudi Arabia']
-    priority: 1
-  - name: XPATH
-    value: //ul[14]/li[1]/a
-    priority: 2
-  - name: XPATH
-    value: /html/body/ul[14]/li[1]/a
-    priority: 3
 - id: b2Bhc2rXdECGwsDEi8FSWA
   name: HR Settings
   type:
@@ -2405,25 +2339,6 @@ elements:
   - name: XPATH
     value: /html/body/div[2]/div/div[2]/div/div[1]/div[2]/div[6]/div[2]/div[5]/div[1]/table[1]/tbody/tr[12]/td[2]/div/div/input
     priority: 2
-- id: ehQHDCRWiUqEWw-4K4xfcQ
-  name: Accountant
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#ui-id-112'
-    priority: 0
-  - name: XPATH
-    value: //a[. = 'Accountant']
-    priority: 1
-  - name: XPATH
-    value: //ul[18]/li[5]/a
-    priority: 2
-  - name: XPATH
-    value: /html/body/ul[18]/li[5]/a
-    priority: 3
 - id: SZwKw0t9akawE6EJCQezzQ
   name: salary_payment
   type:
@@ -2443,21 +2358,43 @@ elements:
   - name: XPATH
     value: /html/body/div[2]/div/div[2]/div/div[1]/div[2]/div[6]/div[2]/div[5]/div[1]/table[1]/tbody/tr[15]/td[2]/select
     priority: 3
-- id: vDRVh9qbLEKpl-wg6_lmaQ
-  name: Employee created
+- id: tHrib4pKBEubSiYNObs-yA
+  name: Albania
   type:
-    id: jUwODgyNjAyNzk2NTk1NTM
-    name: Paragraph
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
     source: System
   locators:
-  - name: XPATH
-    value: //p[. = 'Employee created']
+  - name: CSSSELECTOR
+    value: '#ui-id-148'
     priority: 0
   - name: XPATH
-    value: //div[3]//p
+    value: //a[. = 'Albania']
     priority: 1
   - name: XPATH
-    value: /html/body/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div/div/div[3]/div[2]/div[2]/div/p
+    value: //ul[14]/li[2]/a
     priority: 2
+  - name: XPATH
+    value: /html/body/ul[14]/li[2]/a
+    priority: 3
+- id: vLJFqr0uYkOoCaPMt2aHXg
+  name: 32324231
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#ui-id-156'
+    priority: 0
+  - name: XPATH
+    value: //a[. = '3232423']
+    priority: 1
+  - name: XPATH
+    value: //ul[18]/li[1]/a
+    priority: 2
+  - name: XPATH
+    value: /html/body/ul[18]/li[1]/a
+    priority: 3
 projectParameters: []
 addons: []
