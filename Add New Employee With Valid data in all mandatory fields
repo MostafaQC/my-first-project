@@ -1,7 +1,7 @@
-id: fL9yxtD8qk2t5Wes_ZIrFw
+id: O7VfHK-DLUebGrffpvkZrA
 projectId: 6YasiGLnFU2b54y46bOleQ
 projectName: My first Project
-created: 2022-06-07T16:03:55.9368934Z
+created: 2022-06-07T16:10:53.2374139Z
 protocol: 1
 tests:
 - id: hDvkDJ8y30qVJYP2qm6NSw
@@ -12,12 +12,12 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-06T10:09:37.0000000
-  modificationDate: 2022-06-07T16:03:29.0000000
+  modificationDate: 2022-06-07T16:10:53.0000000
   settings:
     automationAssistant: true
     appId: aXcFE54aj0Ks-WJTSOqGGw
-    stepSleepTime: 500
-    stepTimeout: 15000
+    stepSleepTime: 1000
+    stepTimeout: 25000
     stepSleepTiming: Before
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
