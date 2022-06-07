@@ -1,7 +1,7 @@
-id: LExOpzQAi0eqUD5roMw5Zg
+id: Ak0mVYF_1Uu7U4rbhMBZ7g
 projectId: 6YasiGLnFU2b54y46bOleQ
 projectName: My first Project
-created: 2022-06-07T15:50:14.5536975Z
+created: 2022-06-07T15:56:29.6597954Z
 protocol: 1
 tests:
 - id: hDvkDJ8y30qVJYP2qm6NSw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-06T10:09:37.0000000
-  modificationDate: 2022-06-07T15:49:33.0000000
+  modificationDate: 2022-06-07T15:56:09.0000000
   settings:
     automationAssistant: true
     appId: aXcFE54aj0Ks-WJTSOqGGw
@@ -434,13 +434,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: UyHwrmjGzkiGChH62u1IpQ
+  - id: sUw8edtOh0eQB6rvAavWuA
     enabled: true
     invertResult: false
     order: 20
     repeat: 1
     type: Action
-    elementId: sx-W6Ivea0qfjbhZoX_ILA
+    elementId: J4bKvIE4X0azg8D_jqQDIw
     settings:
       sleepTime: -1
       timeout: -1
@@ -454,7 +454,7 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: OlkKY6u4OES7z_c0SuXjxw
+  - id: MWRTHTfq8ECgxWaNqAc-Bg
     enabled: true
     invertResult: false
     order: 21
@@ -474,13 +474,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: ST6lUsbHtkeM-KRBBxUBeQ
+  - id: BdS8FtFebE-KpsBkZW8gvQ
     enabled: true
     invertResult: false
     order: 22
     repeat: 1
     type: Action
-    elementId: DqIFMmCKVkGIRnEyqpXlXQ
+    elementId: Q4GOa0Hn0UiSYaqX240Xcg
     settings:
       sleepTime: -1
       timeout: -1
@@ -494,7 +494,7 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 3uXqSU4gpUOkiEZ6Wa0cTg
+  - id: xS7vLctSJU-llXILNjm5tg
     enabled: true
     invertResult: false
     order: 23
@@ -514,13 +514,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: uhcTxv-EuUSu0kbP0is-UA
+  - id: EI3pB3lhxEK3okWU78rH3g
     enabled: true
     invertResult: false
     order: 24
     repeat: 1
     type: Action
-    elementId: iziYKULMH0aSsIxM9tnoiA
+    elementId: cU3BB8gy5E2iR7b9S5hIIA
     settings:
       sleepTime: -1
       timeout: -1
@@ -534,13 +534,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: vE2JQiNt4EGuEa3FtQmidw
+  - id: c-1GwxJx30aYi1qULEJCHg
     enabled: true
     invertResult: false
     order: 25
     repeat: 1
     type: Action
-    elementId: glVBApkyOUK0Fzdv7MqfBg
+    elementId: T7VhIoV4K0KPizfsnawLdw
     settings:
       sleepTime: -1
       timeout: -1
@@ -554,13 +554,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: z20ymwxBhECphR8zDPIFqg
+  - id: Yca3QMiTHE-u3EaTd1JUMA
     enabled: true
     invertResult: false
     order: 26
     repeat: 1
     type: Action
-    elementId: nFDeWSxSSEuAWPvvP5JjFg
+    elementId: od7xBkLnMEWGbTSpc-5WAQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -574,7 +574,7 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: UtKBoCfudUGX3jWLPVka9A
+  - id: EX_CN4SSgUGEEttFz2M-yA
     enabled: true
     invertResult: false
     order: 27
@@ -1689,22 +1689,6 @@ elements:
   - name: XPATH
     value: /html/body/ul[2]/li[2]/a
     priority: 3
-- id: sx-W6Ivea0qfjbhZoX_ILA
-  name: o_field_input_922
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#o_field_input_922'
-    priority: 0
-  - name: XPATH
-    value: //div[5]/table[2]/tbody/tr[3]//input
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[2]/div/div[2]/div/div[1]/div[2]/div[5]/table[2]/tbody/tr[3]/td[2]/div/div/input
-    priority: 2
 - id: GSnqSC4LmU2oBy9HxCpiwQ
   name: Department for sales modify
   type:
@@ -1724,22 +1708,6 @@ elements:
   - name: XPATH
     value: /html/body/ul[3]/li[1]/a
     priority: 3
-- id: DqIFMmCKVkGIRnEyqpXlXQ
-  name: o_field_input_923
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#o_field_input_923'
-    priority: 0
-  - name: XPATH
-    value: //tr[4]/td[2]/div/div/input
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[2]/div/div[2]/div/div[1]/div[2]/div[5]/table[2]/tbody/tr[4]/td[2]/div/div/input
-    priority: 2
 - id: nZlPs5matUuQG_hTv7nrTg
   name: Devision
   type:
@@ -1759,57 +1727,6 @@ elements:
   - name: XPATH
     value: /html/body/ul[4]/li[1]/a
     priority: 3
-- id: iziYKULMH0aSsIxM9tnoiA
-  name: o_field_input_924
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#o_field_input_924'
-    priority: 0
-  - name: XPATH
-    value: //tr[5]/td[2]/div/div/input
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[2]/div/div[2]/div/div[1]/div[2]/div[5]/table[2]/tbody/tr[5]/td[2]/div/div/input
-    priority: 2
-- id: glVBApkyOUK0Fzdv7MqfBg
-  name: 1743
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#ui-id-43'
-    priority: 0
-  - name: XPATH
-    value: //a[. = '1743']
-    priority: 1
-  - name: XPATH
-    value: //ul[5]/li[4]/a
-    priority: 2
-  - name: XPATH
-    value: /html/body/ul[5]/li[4]/a
-    priority: 3
-- id: nFDeWSxSSEuAWPvvP5JjFg
-  name: o_field_input_928
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#o_field_input_928'
-    priority: 0
-  - name: XPATH
-    value: //td/div/div/div/input
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[2]/div/div[2]/div/div[1]/div[2]/div[5]/table[2]/tbody/tr[10]/td[2]/div/div/div/input
-    priority: 2
 - id: 2GbkqaeljkOIb5P-hDLaaA
   name: Staff
   type:
@@ -2293,6 +2210,89 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div[2]/div/div[2]/div/div[1]/div[2]/div[5]/table[2]/tbody/tr[2]/td[2]/div/div/input
+    priority: 2
+- id: J4bKvIE4X0azg8D_jqQDIw
+  name: o_field_input_926
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#o_field_input_926'
+    priority: 0
+  - name: XPATH
+    value: //div[5]/table[2]/tbody/tr[3]//input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[2]/div/div[1]/div[2]/div[5]/table[2]/tbody/tr[3]/td[2]/div/div/input
+    priority: 2
+- id: Q4GOa0Hn0UiSYaqX240Xcg
+  name: o_field_input_9271
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#o_field_input_927'
+    priority: 0
+  - name: XPATH
+    value: //tr[4]/td[2]/div/div/input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[2]/div/div[1]/div[2]/div[5]/table[2]/tbody/tr[4]/td[2]/div/div/input
+    priority: 2
+- id: cU3BB8gy5E2iR7b9S5hIIA
+  name: o_field_input_9281
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#o_field_input_928'
+    priority: 0
+  - name: XPATH
+    value: //tr[5]/td[2]/div/div/input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[2]/div/div[1]/div[2]/div[5]/table[2]/tbody/tr[5]/td[2]/div/div/input
+    priority: 2
+- id: T7VhIoV4K0KPizfsnawLdw
+  name: 11
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#ui-id-40'
+    priority: 0
+  - name: XPATH
+    value: //a[. = '1']
+    priority: 1
+  - name: XPATH
+    value: //ul[5]/li[1]/a
+    priority: 2
+  - name: XPATH
+    value: /html/body/ul[5]/li[1]/a
+    priority: 3
+- id: od7xBkLnMEWGbTSpc-5WAQ
+  name: o_field_input_932
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#o_field_input_932'
+    priority: 0
+  - name: XPATH
+    value: //td/div/div/div/input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[2]/div/div[1]/div[2]/div[5]/table[2]/tbody/tr[10]/td[2]/div/div/div/input
     priority: 2
 projectParameters: []
 addons: []
